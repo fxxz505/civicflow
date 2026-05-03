@@ -321,6 +321,7 @@ function App() {
             issues={visibleIssues}
             selectedIssue={selectedIssue}
             selectIssue={setSelectedIssueId}
+            votedIssueIds={votedIssueIds}
             voteIssue={voteIssue}
             addComment={addComment}
             filter={filter}
@@ -369,6 +370,7 @@ function CitizenView(props) {
     issues,
     selectedIssue,
     selectIssue,
+    votedIssueIds,
     voteIssue,
     addComment,
     filter,
