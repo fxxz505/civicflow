@@ -19,7 +19,7 @@ This project intentionally does not use AI, machine learning, automated recommen
 - React
 - Vite
 - Lucide React icons
-- Local browser storage for demo persistence
+- Local browser storage for lightweight persistence
 - Node static server for stable local preview without Vite HMR dependency errors
 
 ## Run Locally
@@ -35,18 +35,3 @@ Open:
 ```text
 http://127.0.0.1:5173
 ```
-
-## Demo Flow
-
-1. Submit a new issue from the citizen portal.
-2. Vote for an issue and confirm the same issue cannot be voted again in the same browser.
-3. Add a public comment.
-4. Open the operations desk and change status, priority, owner, or announcement.
-5. Open the impact dashboard and review updated statistics.
-
-## Hackathon Submission Notes
-
-- Working prototype: included as a web MVP.
-- Source code repository: include this project with setup instructions.
-- Presentation deck content: problem, solution, workflow, technical architecture, impact metrics, and roadmap.
-- Demo video: record the demo flow above in 3-5 minutes.
